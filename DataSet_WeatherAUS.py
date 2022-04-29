@@ -12,5 +12,7 @@ import pandas as pd
 # Obtener la data
 
 url = "weatherAUS.csv"
-data = pd.read_csv(url)
+data = pd.read_csv(url)[:3000]
+
+
 
