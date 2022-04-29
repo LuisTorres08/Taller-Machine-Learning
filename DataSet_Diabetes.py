@@ -16,7 +16,7 @@ data = pd.read_csv(url)
 
 # Tratamiento de la data (Limpiar y normalizar la data)
 
-data.drop(['Pregnancies', 'BloodPressure', 'SkinThinckness'], axis=1, inplace=True)
+data.drop(['Pregnancies', 'BloodPressure', 'SkinThickness'], axis=1, inplace=True)
 
 
 ranges = [0, 20, 30, 40, 50, 60, 70, 80, 90, 100]
